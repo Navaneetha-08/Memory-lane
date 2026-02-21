@@ -1,10 +1,10 @@
 body {
-    background-color: rgba(160, 216, 218, 0.921);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #eec4d9;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .pastel-nav {
-    background-color: #C1F0DC;
+    background-color: #ccbbf5;
 }
 
 .hero {
@@ -112,7 +112,7 @@ body {
 /* 🌸 PAYMENT PAGE STYLE */
 
 .payment-box {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(244, 174, 174, 0.6);
     backdrop-filter: blur(15px);
     padding: 40px;
     border-radius: 25px;
@@ -133,14 +133,14 @@ body {
 }
 
 .btn-pay {
-    background: #C1F0DC;
+    background: #af91ef;
     border-radius: 25px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .btn-pay:hover {
-    background: #FFD1DC;
+    background: #80eed1;
 }
 
 .modal-content {
@@ -157,7 +157,7 @@ body {
 }
 
 .contact-box {
-    background: #d22d53;
+    background: rgb(196, 238, 238);
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -211,8 +211,6 @@ body {
 .des8 {
     margin-left: 50px;
 }
-
-
 .des10 {
     margin-left: 50px;
 }
