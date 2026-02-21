@@ -1,0 +1,222 @@
+body {
+    background-color: rgba(160, 216, 218, 0.921);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pastel-nav {
+    background-color: #C1F0DC;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg,#CDE7FF,#E6E6FA,#C1F0DC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animate-title {
+    font-size: 3rem;
+    animation: float 3s ease-in-out infinite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px);}
+    50% { transform: translateY(-15px);}
+    100% { transform: translateY(0px);}
+}
+
+.btn-hero {
+    background: #FFE5B4;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.pastel-card {
+    background: #E6E6FA;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.pastel-card:hover {
+    transform: scale(1.05);
+}
+
+.premium {
+    background: #FFD1DC;
+}
+
+.pastel-form {
+    background: #CDE7FF;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.btn-pastel {
+    background: #C1F0DC;
+    border-radius: 20px;
+}
+/* 🌸 PACKAGE SECTION NEW STYLE */
+
+.package-box {
+    background: linear-gradient(135deg, #E6E6FA, #CDE7FF);
+    padding: 30px;
+    border-radius: 25px;
+    position: relative;
+    transition: 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.package-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.price {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.features li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.btn-package {
+    background: #FFD1DC;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-package:hover {
+    background: #C1F0DC;
+}
+
+.popular {
+    background: linear-gradient(135deg, #FFD1DC, #FFE5B4);
+}
+
+.badge-popular {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background-color: #ff4d6d;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+/* 🌸 PAYMENT PAGE STYLE */
+
+.payment-box {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, #E6E6FA, #CDE7FF);
+    animation: floatCard 4s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+    0% { transform: translateY(0px);}
+    50% { transform: translateY(-10px);}
+    100% { transform: translateY(0px);}
+}
+
+.nav-pills .nav-link.active {
+    background: #FFD1DC;
+    color: black;
+}
+
+.btn-pay {
+    background: #C1F0DC;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-pay:hover {
+    background: #FFD1DC;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+/* 🌸 ABOUT & CONTACT PAGE */
+
+.about-box {
+    background: linear-gradient(135deg, #E6E6FA, #CDE7FF);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-box {
+    background: #d22d53;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.social-icons a {
+    font-size: 22px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.des {
+    margin-left: 50px;
+}
+
+.des1 {
+    margin-left: 45px;
+}
+.des2 {
+    margin-left: 45px;
+}
+.des3 {
+    margin-left: 50px;
+}
+.des4 {
+    margin-left: 50px;
+}
+.des5 {
+    margin-left: 45px;
+}
+
+.des6 {
+    margin-left: 50px;
+}
+
+.des7 {
+    margin-left: 50px;
+}
+.des8 {
+    margin-left: 50px;
+}
+
+
+.des10 {
+    margin-left: 50px;
+}
+.des11 {
+    margin-left: 50px;
+}
+
